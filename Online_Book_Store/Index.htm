@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--Slider!-->
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title>Online Books Store</title>
+<!--Slider!-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="dist/slippry.min.js"></script>
+		<meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="dist/slippry.css">
+	<script>
+	    $(function () {
+	        var demo1 = $("#demo1").slippry({
+	            transition: 'fade',
+	            useCSS: true,
+	            speed: 500,
+	            pause: 3000,
+	            auto: true,
+	            preload: 'visible'
+	        });
+
+	        $('.stop').click(function () {
+	            demo1.stopAuto();
+	        });
+
+	        $('.start').click(function () {
+	            demo1.startAuto();
+	        });
+
+	        $('.prev').click(function () {
+	            demo1.goToPrevSlide();
+	            return false;
+	        });
+	        $('.next').click(function () {
+	            demo1.goToNextSlide();
+	            return false;
+	        });
+	        $('.reset').click(function () {
+	            demo1.destroySlider();
+	            return false;
+	        });
+	        $('.reload').click(function () {
+	            demo1.reloadSlider();
+	            return false;
+	        });
+	        $('.init').click(function () {
+	            demo1 = $("#demo1").slippry();
+	            return false;
+	        });
+	    });
+		</script>
+<!--Slider!-->
+</head>
+<body>
+<div class="top"><br /><br /><br /><br />
+<div class="outer">
+<a href="Index.htm"><img  src="img/logo.png"/></a>
+<hr />
+<div>
+<ul class="spotlightmenu">
+<li>
+<a href="Index.htm">home|</a>
+</li>
+<li>
+<a href="ourbooks.htm">our-Books|</a>
+</li>
+<li>
+<a href="ebooks.htm">e-books|</a>
+</li>
+<li>
+<a href="aboutus.htm">about-Us|</a>
+</li>
+<li>
+<a href="contactus.htm">Contact-Us|</a>
+</li>
+</ul>
+<hr />
+<!-- Cont!-->
+<div style="border:0px solid red;width:1040px;height:1250px;position:relative">
+<!--Slider!-->
+<div class="demo_wrapper">
+			<div class="demo_block">
+			<ul id="demo1">
+				<li><a href="#slide2"><img src="imgs/img1.jpg" height="270px" width="1100px" alt="Books for you"></a></li>
+                <li><a href="#slide2"><img src="imgs/img2.jpg" height="270px" width="1100px" alt="Most Kids Books"></a></li>
+                <li><a href="#slide3"><img src="imgs/img3.jpg" height="270px" width="1100px" alt="All you need is a Book."></a></li>
+                <li><a href="#slide2"><img src="imgs/img4.jpg" height="270px" width="1100px" alt="Welcome to our Side"></a></li>
+			</ul>
+			</div>
+		</div>
+<!--Slider!-->
+<h2>
+Welcome to our online book Store.
+</h2>
+<hr />
+<p>
+See our collectible, out-of-print and vintage cookbooks for the casual chef and culinary professional. We've hand selected each item in our shop with our customers in mind. 
+We strive to bring you quality merchandise and a boutique bookstore experience in online shopping.
+</p>
+<!-- MCont!-->
+<hr />
+<h2>Our Latest Products :</h2>
+<div style="border:0px solid white;width:328px;height:161px;float:left">
+<a href="ebooks.htm"><img src="img/banner-1-328x161.jpg"/></a>
+</div>
+<div style="border:1px solid white;width:328px;height:161px;float:left;padding-left:25px">
+<a href="ebooks.htm"><img src="img/banner-2-328x161.jpg" /></a>
+</div>
+<div style="border:1px solid white;width:328px;height:161px;float:right">
+<a href="ebooks.htm"><img src="img/banner-3-328x161.jpg" /></a>
+</div>
+<!-- MCont!-->
+<h2>Featured Products:</h2>
+<div class=Books>
+<img src="PIC/bird-box-1.jpg" title="A bird Box" width="205" height="205"/><br />
+<div style="border:dashed 0px black;width:auto;height:auto;float:left"><br />
+<p><b>SYNOPSIS..</b></p><hr />
+<p>
+Engulfed in darkness, surrounded by sounds both familiar and frightening, Malorie embarks on a harrowing odyssey—a trip that takes her into an unseen world and back into the past, 
+to the companions who once saved her. 
+</p>
+</div>
+<a href="#" class="more_btn v2">more</a><br /><br />
+</div>
+<div class=Books>
+<img src="PIC/us-conductors.jpg" title="Us Conductors" width="205" height="205"/><br />
+<div style="border:dashed 0px black;width:auto;height:auto;float:left"><br />
+<p><b>SYNOPSIS..</b></p><hr />
+<p>
+ In a finely woven series of flashbacks and correspondence, Us Conductors takes us from the glitz and glam of New York in the 1930s to 
+ the gulags and scientific camps of the Soviet Union. 
+</p>
+</div>  
+<a href="#" class="more_btn v2">more</a>
+</div>
+<div class=Books>
+<img src="PIC/the-sweet-spot-12.jpg" title="The Sweet Spot" width="205" height="205"/><br />
+<div style="border:dashed 0px black;width:auto;height:auto;float:left"><br />
+<p><b>SYNOPSIS..</b></p><hr />
+<p>
+A sizzling story of everyone’s favorite couple from amazing Stephanie Evanovich’s 
+New York Times bestseller Big Girl Panties: hunky professional baseball player Chase Walker and his sassy wife Amanda.
+</p>
+</div>
+<a href="#" class="more_btn v2">more</a>
+</div>
+
+<!-- MCont!-->         
+</div>
+<!--Footer!-->
+<div  class="footer">
+<a href="Index.htm">Home|</a>
+<a href="Index.htm">our-Books|</a>
+<a href="Index.htm">e-books|</a>
+<a href="Index.htm">about-Us|</a>
+<a href="Index.htm">contact-Us|</a>
+<p class="para">web-Desinged and Developed by &copy <a href="Index.htm"><b>BookStore.com</b></a>2014</p>
+</div>
+<!--Footer!-->
+<!--Main!-->
+</div>
+</div>
+</div>
+</body>
+</html>
